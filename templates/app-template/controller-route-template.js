@@ -1,14 +1,11 @@
-const utils = require('../../lib/util-functions');
-
 module.exports = (controllers) =>  `
 const router = require('express').Router();
 
 ${
     controllers.map((controller) => {
-        const objectName = utils.getObjectName(controller);
-        return `const ${objectName} = require('./app/controllers/${controller}-controller.js');
-router.use('/${controller}', ${objectName});`;
-    }).join('\n')
+        return `const ${controller["objectName"]} = require('./${controller["filename"]}-controller.js');
+router.use('/${controller["filename"]}', ${controller["objectName"]});`;
+    }).join('\n\n')
 }
 
 module.exports = router;
