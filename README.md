@@ -117,4 +117,12 @@ orders => Orders
 ```
 
 Table Names in database.
+
 ![alt text](SampleDB.png "SampleDB")
+
+### Whats coming?
+- [ ] Better template defaults in logger, middlewares, constants, config etc.
+- [ ] Strong params implementation
+- [ ] Swagger specs
+- [ ] Integration tests for controller
+- [ ] Integration tests for service
