@@ -1,5 +1,3 @@
-# Work In Progress...(Not yet usable)
-
 # express-mvc-app-generator
 This cli tool will generate the express app from JSON schema diagram.
 
@@ -8,7 +6,7 @@ With this cli tool you can create the full MVC express app with sequelize ORM. S
 
 ##### Installation
 ```
-npm i @naveen.agarwal/express-mvc-app-generator
+npm i -g @naveen.agarwal/express-mvc-app-generator
 ```
 
 ##### JSON schema sample
