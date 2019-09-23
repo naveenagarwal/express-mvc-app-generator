@@ -1,0 +1,66 @@
+{
+    "tables": [
+        {
+            "name" : "users",
+            "attributes" : [
+                {
+                    "name" : "username",
+                    "type" : "string"
+                },
+                {
+                    "name" : "accountNumber",
+                    "type" : "bigint"
+                },
+                {
+                    "name" : "aboutText",
+                    "type" : "text"
+                }
+            ]
+        },
+        {
+            "name" : "orders",
+            "attributes" :[
+                {
+                    "name" : "userId",
+                    "type" : "integer"
+                },
+                {
+                    "name" : "name",
+                    "type" : "string"
+                }
+            ]
+        },
+
+        {
+            "name" : "line_items",
+            "attributes" : [
+                {
+                    "name" : "orderId",
+                    "type" : "integer"
+                },
+                {
+                    "name" : "productId",
+                    "type" : "integer"
+                },
+                {
+                    "name" : "price",
+                    "type" : "double"
+                }
+            ]
+        },
+        {
+            "name" : "products",
+            "attributes" : [
+                {
+                    "name" : "name",
+                    "type" : "string"
+                },
+                {
+                    "name" : "discription",
+                    "type" : "text"
+                }
+            ]
+        }
+
+    ]
+}

@@ -1,4 +1,3 @@
-.DS_Store
 # Logs
 logs
 *.log
@@ -27,11 +26,6 @@ coverage
 # Bower dependency directory (https://bower.io/)
 bower_components
 
-node_modules
-# app
-# config
-# seeders
-# migrations
 # node-waf configuration
 .lock-wscript
 

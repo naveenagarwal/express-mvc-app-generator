@@ -1,0 +1,44 @@
+{
+  "name": "@naveen.agarwal/express-mvc-app-generator",
+  "version": "0.0.1",
+  "description": "This cli tool will generate the express app from your ERD diagram or its equivalent JSON representation.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "express-boot": "./bin/express-boot.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/naveenagarwal/express-mvc-app-generator.git"
+  },
+  "keywords": [
+    "expressjs",
+    "sequelize",
+    "orm",
+    "app",
+    "generator",
+    "scaffold",
+    "app-scaffold",
+    "app-generator",
+    "controllers",
+    "services",
+    "models"
+  ],
+  "author": "Naveen Aagrwal",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/naveenagarwal/express-mvc-app-generator/issues"
+  },
+  "homepage": "https://github.com/naveenagarwal/express-mvc-app-generator#readme",
+  "dependencies": {
+    "@naveen.agarwal/express-scaffold": "^1.0.7",
+    "command-line-args": "^5.1.1",
+    "lodash": "^4.17.15",
+    "pluralize": "^8.0.0",
+    "sequelize": "^5.19.0",
+    "sequelize-cli": "^5.5.1",
+    "shelljs": "^0.8.3"
+  }
+}
