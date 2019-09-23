@@ -1,7 +1,7 @@
 {
   "name": "express-app-template",
   "version": "1.0.0",
-  "description": "This should be use as template for the express apps",
+  "description": "This is auto generated app",
   "main": "index.js",
   "scripts": {
     "test": "npm run test"

@@ -1,0 +1,20 @@
+module.exports = {
+    configTemplate: require('./config-template'),
+    constantsTemplate: require('./constants-template'),
+    dotEnvTemplate: require('./dot-env-template'),
+    loggerTemplate: require('./logger-template'),
+    middlewareIndexTemplate: require('./middleware-index-template'),
+    modelIndexTemplate: require('./model-index-template'),
+    packageJSONTemplate: require('./package-json-template'),
+    readmeTemplate: require('./readme-template'),
+    sequelizercTemplate: require('./sequelizerc-template'),
+    srcIndexTemplate: require('./src-index.template'),
+    gitIgnoreTemplate: require('./gitignore-template'),
+    testSpecTemplate: '',
+    envDevelopmentTemplate: '',
+    envTestTemplate: '',
+    envStageTemplate: '',
+    envProductionTemplate: '',
+    envUatTemplate: '',
+    libIndexTemplate: ''
+}
