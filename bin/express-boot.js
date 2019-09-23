@@ -10,9 +10,6 @@ const AppGenerator = require('../lib/app-generator');
 const SchemaReader = require('../lib/schema-reader');
 
 const cwd = process.cwd();
-// const sequelizercPath = cwd + '/.sequelizerc';
-// const config = fs.existsSync(sequelizercPath) ? require(sequelizercPath) : getDefaultConfig();
-
 // read command line options
 const optionDefinitions = [
     { name: 'name', alias: 'n', type: String },
@@ -33,9 +30,7 @@ const schemaReadererd = new SchemaReader(options.schema);
 models = schemaReadererd.modelDefinitions()
 // invoke express-scaffold
 appGenerator.intializeModels(models);
-// test
-// push and publish
-// enjoy!!!
+
 console.log('Run the following commands to run the app.');
 console.log('1. `npx sequelize-cli db:create`');
 console.log('2. `npx sequelize-cli db:migrate`');
