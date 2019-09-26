@@ -1,6 +1,9 @@
 # express-mvc-app-generator
 This cli tool will generate the express app from JSON schema diagram.
 
+### Update with Release 1.1.0 onwards
+Added strong params for all controllers as middlewares
+
 ### Release 1.0.0
 With this cli tool you can create the full MVC express app with sequelize ORM. Simply define the schema in the JSON format and you are all set.
 
@@ -122,7 +125,7 @@ Table Names in database.
 
 ### Whats coming?
 - [ ] Better template defaults in logger, middlewares, constants, config etc.
-- [x] Strong params implementation
+- [x] Strong params implementation (*Added with release 1.1.0*)
 - [ ] Swagger specs
 - [ ] Integration tests for controller
 - [ ] Integration tests for service
