@@ -45,7 +45,7 @@ module.exports = `{
       "nock": "^10.0.6",
       "nyc": "^14.1.1",
       "supertest": "^4.0.2",
-      "@naveen.agarwal/express-scaffold" : "1.0.7",
+      "@naveen.agarwal/express-scaffold" : "1.1.0",
       "sequelize-cli": "^5.5.0"
     }
   }

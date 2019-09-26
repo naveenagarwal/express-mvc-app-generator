@@ -6,5 +6,6 @@ module.exports = {
   'services-path': path.resolve('src', 'lib', 'services'),
   'config': path.resolve('src', 'config', 'config.js'),
   'seeders-path': path.resolve('src', 'seeders'),
-  'migrations-path': path.resolve('src', 'migrations')
+  'migrations-path': path.resolve('src', 'migrations'),
+  'middlewares-path': path.resolve('src', 'middlewares')
 }`;

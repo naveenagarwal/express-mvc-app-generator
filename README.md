@@ -122,7 +122,7 @@ Table Names in database.
 
 ### Whats coming?
 - [ ] Better template defaults in logger, middlewares, constants, config etc.
-- [ ] Strong params implementation
+- [x] Strong params implementation
 - [ ] Swagger specs
 - [ ] Integration tests for controller
 - [ ] Integration tests for service
