@@ -125,7 +125,7 @@ Table Names in database.
 
 ### Whats coming?
 - [ ] Better template defaults in logger, middlewares, constants, config etc.
-- [x] Strong params implementation (*Added with release 1.1.0*) http://yourdomain/api-docs
+- [x] Strong params implementation (*Added with release 1.1.0*) mouted at */api-docs*
 - [x] Swagger specs (*Added with release 2.0.0*)
 - [ ] Integration tests for controller
 - [ ] Integration tests for service
