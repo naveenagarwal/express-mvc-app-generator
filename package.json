@@ -1,6 +1,6 @@
 {
   "name": "@naveen.agarwal/express-mvc-app-generator",
-  "version": "2.0.1",
+  "version": "2.0.2",
   "description": "This cli tool will generate the express app from your ERD diagram or its equivalent JSON representation.",
   "main": "index.js",
   "scripts": {
