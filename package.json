@@ -33,7 +33,7 @@
   },
   "homepage": "https://github.com/naveenagarwal/express-mvc-app-generator#readme",
   "dependencies": {
-    "@naveen.agarwal/express-scaffold": "^2.0.0",
+    "@naveen.agarwal/express-scaffold": "^2.0.1",
     "command-line-args": "^5.1.1",
     "lodash": "^4.17.15",
     "pluralize": "^8.0.0",
