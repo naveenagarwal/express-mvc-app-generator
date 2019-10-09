@@ -1,6 +1,6 @@
 {
   "name": "@naveen.agarwal/express-mvc-app-generator",
-  "version": "2.0.2",
+  "version": "2.1.0",
   "description": "This cli tool will generate the express app from your ERD diagram or its equivalent JSON representation.",
   "main": "index.js",
   "scripts": {
@@ -33,7 +33,7 @@
   },
   "homepage": "https://github.com/naveenagarwal/express-mvc-app-generator#readme",
   "dependencies": {
-    "@naveen.agarwal/express-scaffold": "^2.0.1",
+    "@naveen.agarwal/express-scaffold": "^2.1.2",
     "command-line-args": "^5.1.1",
     "lodash": "^4.17.15",
     "pluralize": "^8.0.0",

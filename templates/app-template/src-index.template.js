@@ -10,12 +10,15 @@ const { NOT_FOUND_STATUS_CODE } = require('./config/constants');
 const controllers = require('./app/controllers');
 const swaggerUi = require('swagger-ui-express');
 const swaggerDocument = require('../api-specs/swagger.json');
+const params = require('strong-params');
+
 app.use('/api-docs', swaggerUi.serve, swaggerUi.setup(swaggerDocument));
 
 logger.init();
 
 // your pre-routes-middlewares
 app.use(bodyParser.json());
+app.use(params.expressMiddleware())
 // your routes
 app.get('/', (req, res) => res.json({message: 'Hello World!'}));
 app.get('/health', (req, res) => res.json({status: true, message: 'Health OK!'}));

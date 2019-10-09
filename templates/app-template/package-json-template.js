@@ -35,8 +35,8 @@ module.exports = `{
       "sequelize": "^5.15.1",
       "swagger-ui-express": "^4.0.7",
       "winston": "^3.2.1",
-      "mysql2" : "1.7.0"
-
+      "mysql2" : "1.7.0",
+      "strong-params": "^1.0.0"
     },
     "devDependencies": {
       "chai": "^4.2.0",
@@ -45,7 +45,7 @@ module.exports = `{
       "nock": "^10.0.6",
       "nyc": "^14.1.1",
       "supertest": "^4.0.2",
-      "@naveen.agarwal/express-scaffold" : "2.0.0",
+      "@naveen.agarwal/express-scaffold" : "2.1.2",
       "sequelize-cli": "^5.5.0"
     }
   }
